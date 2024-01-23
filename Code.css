@@ -1,0 +1,164 @@
+.ytp-scrubber-pull-indicator {
+  /* Butterfly slider */
+  background-color: #fff0 !important;
+  height: 50px !important;
+  width: 45px !important;
+  background-image: url(https://media.giphy.com/media/jRr2Y37pHcYlRU8EZg/giphy.gif) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 43px, 80px !important;
+  bottom: 18px !important;
+  left: -10px !important;
+  transform: rotate(0deg) !important;
+  transform: scale(-1.5, 1.5) !important;
+  border-radius: 30px !important;
+}
+
+.ytp-swatch-background-color {
+  /* sliderball */
+  background-color: #212a53 !important;
+}
+
+.ytp-volume-slider-handle,
+.ytp-volume-slider-handle::after,
+.ytp-volume-slider-handle::before,
+.ytp-settings-menu .ytp-menuitem-toggle-checkbox,
+.ytp-autonav-toggle-button,
+.yt-spec-icon-badge-shape__badge,
+.iron-selected /* some menu selections */ {
+  /* some items bg */
+  background-color: #212a53 !important;
+}
+
+.ytd-video-owner-renderer .yt-spec-button-shape-next--filled {
+  color: #fff !important;
+  background-color: #212a53 !important;
+}
+
+.iron-selected .yt-chip-cloud-chip-renderer {
+  /* some menu selections */
+  color: #fff !important;
+}
+
+.ytd-thumbnail-overlay-resume-playback-renderer {
+  /* text and hyperlinks */
+  background-color: #0b33e6 !important;
+}
+
+.yt-simple-endpoint {
+  /* text and hyperlinks */
+  color: #687dde !important;
+}
+
+.yt-core-attributed-string__link,
+#owner-sub-count, 
+#channel-name,
+yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
+.ytd-video-meta-block .inline-metadata-item:nth-child(3n){
+  /* text and hyperlinks */
+  color: #5461a1 !important;
+}
+
+.ytd-channel-name .yt-simple-endpoint,
+.ytd-comment-renderer,
+ytd-author-comment-badge-renderer .ytd-channel-name {
+  /* bug fix */
+  color: #fff !important;
+}
+
+.ytd-c4-tabbed-header-renderer .iron-selected {
+  background-color: #212129 !important;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+} 
+
+
+
+
+/* Adjust the keyframe animation */
+@keyframes moveLogo {
+  0% {
+    transform: translateY(-12px) translateX(0) scaleX(-1);
+  }
+  5% {
+    transform: translateY(-12px) translateX(80px) scaleX(-1); /* Increase the distance */
+  }
+  10% {
+    transform: translateY(-12px) translateX(160px) scaleX(-1); /* Increase the distance */
+  }
+  15% {
+    transform: translateY(-12px) translateX(240px) scaleX(-1); /* Increase the distance */
+  }
+  20% {
+    transform: translateY(-12px) translateX(320px) scaleX(-1); /* Increase the distance */
+  }
+  25% {
+    transform: translateY(-12px) translateX(400px) scaleX(-1); /* Increase the distance */
+  }
+  30% {
+    transform: translateY(-12px) translateX(480px) scaleX(-1); /* Increase the distance */
+  }
+  35% {
+    transform: translateY(-12px) translateX(560px) scaleX(-1); /* Increase the distance */
+  }
+  40% {
+    transform: translateY(-12px) translateX(640px) scaleX(-1); /* Increase the distance */
+  }
+  45% {
+    transform: translateY(-12px) translateX(720px) scaleX(-1); /* Increase the distance */
+  }
+  50% {
+    transform: translateY(-12px) translateX(800px) scaleX(-1); /* Increase the distance */
+  }
+  55% {
+    transform: translateY(-12px) translateX(880px) scaleX(-1); /* Increase the distance */
+  }
+  60% {
+    transform: translateY(-12px) translateX(960px) scaleX(-1); /* Increase the distance */
+  }
+  65% {
+    transform: translateY(-12px) translateX(1040px) scaleX(-1); /* Increase the distance */
+  }
+  70% {
+    transform: translateY(-12px) translateX(1120px) scaleX(-1); /* Increase the distance */
+  }
+  75% {
+    transform: translateY(-12px) translateX(1200px) scaleX(-1); /* Increase the distance */
+  }
+  80% {
+    transform: translateY(-12px) translateX(1280px) scaleX(-1); /* Increase the distance */
+  }
+  85% {
+    transform: translateY(-12px) translateX(1360px) scaleX(-1); /* Increase the distance */
+  }
+  90% {
+    transform: translateY(-12px) translateX(1440px) scaleX(-1); /* Increase the distance */
+  }
+  95% {
+    transform: translateY(-12px) translateX(1520px) scaleX(-1); /* Increase the distance */
+  }
+  100% {
+    transform: translateY(-12px) translateX(1600px) scaleX(-1); /* Increase the distance */
+  }
+}
+
+/* Apply the updated animation to the #logo-icon element */
+#logo-icon {
+  content: url("https://i.gifer.com/7cC.gif") !important;
+  width: 60px !important;
+  height: 50px !important;
+  object-fit: cover !important;
+  animation: moveLogo 35s infinite; /* Adjust the duration as needed */
+}
+
+/* Adjust the translateY value in ytd-topbar-logo-renderer */
+ytd-topbar-logo-renderer {
+  transform: translateY(10px) !important;
+  color: #687dde !important;
+}
+
+/* Hide the default top bar logo */
+ytd-topbar-logo-renderer {
+  width: 0% !important;
+}
