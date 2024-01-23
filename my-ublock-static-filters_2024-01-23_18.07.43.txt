@@ -1,0 +1,21 @@
+! 2024-01-12 https://www.youtube.com
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(1)
+www.youtube.com###guide-inner-content
+www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+www.youtube.com###guide-button
+www.youtube.com###avatar-btn
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+youtube.com/complete/search
+
+! 2024-01-13 https://www.youtube.com
+www.youtube.com###flexible-item-buttons
+
+! 2024-01-14 https://www.keybr.com
+www.keybr.com##.OwwD1wIMbI
+www.keybr.com##.un_DwZjijf
+
+! 2024-01-18 https://www.youtube.com
+www.youtube.com##.opened
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+
