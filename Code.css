@@ -2,12 +2,12 @@
   /* Butterfly slider */
   background-color: #fff0 !important;
   height: 50px !important;
-  width: 45px !important;
-  background-image: url(https://media.giphy.com/media/jRr2Y37pHcYlRU8EZg/giphy.gif) !important;
+  width: 50px !important;
+  background-image: url(https://i.gifer.com/Za9e.gif) !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  background-size: 43px, 80px !important;
-  bottom: 18px !important;
+  background-size: 50px, 80px !important;
+  bottom: 05px !important;
   left: -10px !important;
   transform: rotate(0deg) !important;
   transform: scale(-1.5, 1.5) !important;
@@ -16,7 +16,7 @@
 
 .ytp-swatch-background-color {
   /* sliderball */
-  background-color: #212a53 !important;
+  background-color: #000000 !important;
 }
 
 .ytp-volume-slider-handle,
@@ -27,27 +27,27 @@
 .yt-spec-icon-badge-shape__badge,
 .iron-selected /* some menu selections */ {
   /* some items bg */
-  background-color: #212a53 !important;
+  background-color: #000000 !important;
 }
 
 .ytd-video-owner-renderer .yt-spec-button-shape-next--filled {
   color: #fff !important;
-  background-color: #212a53 !important;
+  background-color: #000000 !important;
 }
 
 .iron-selected .yt-chip-cloud-chip-renderer {
   /* some menu selections */
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .ytd-thumbnail-overlay-resume-playback-renderer {
   /* text and hyperlinks */
-  background-color: #0b33e6 !important;
+  background-color: #000000 !important;
 }
 
 .yt-simple-endpoint {
   /* text and hyperlinks */
-  color: #687dde !important;
+  color: #000000 !important;
 }
 
 .yt-core-attributed-string__link,
@@ -56,18 +56,23 @@
 yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
 .ytd-video-meta-block .inline-metadata-item:nth-child(3n){
   /* text and hyperlinks */
-  color: #5461a1 !important;
+  color: #FFBF00 !important;
+  
+  /* additional text styles */
+  font-family: 'Roboto Slab', sans-serif; /* Use Roboto Slab as the font */
+  font-weight: bold; /* Set the font weight */
+  /* Add any other styles you desire */
 }
 
 .ytd-channel-name .yt-simple-endpoint,
 .ytd-comment-renderer,
 ytd-author-comment-badge-renderer .ytd-channel-name {
   /* bug fix */
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 .ytd-c4-tabbed-header-renderer .iron-selected {
-  background-color: #212129 !important;
+  background-color: #000000 !important;
   border-radius: 5px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -155,7 +160,7 @@ ytd-author-comment-badge-renderer .ytd-channel-name {
 /* Adjust the translateY value in ytd-topbar-logo-renderer */
 ytd-topbar-logo-renderer {
   transform: translateY(10px) !important;
-  color: #687dde !important;
+  color: #fff0 !important;
 }
 
 /* Hide the default top bar logo */
